@@ -1,0 +1,735 @@
+2016-03-28T20:35:36.125224000 0.471089s notice: Recursively removing directory /Users/pandd/Sites/react-tutorial/rethinkdb_data/tmp
+2016-03-28T20:35:36.126743000 0.472610s notice: Initializing directory /Users/pandd/Sites/react-tutorial/rethinkdb_data
+2016-03-28T20:35:36.127269000 0.473134s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/pandd/Sites/react-tutorial/rethinkdb_data' did not already exist or is empty.)
+2016-03-28T20:35:36.127291000 0.473156s notice: Running rethinkdb 2.2.5 (CLANG 4.2 (clang-425.0.28))...
+2016-03-28T20:35:36.130931000 0.476796s notice: Running on Darwin 15.3.0 x86_64
+2016-03-28T20:35:36.130981000 0.476845s notice: Loading data from directory /Users/pandd/Sites/react-tutorial/rethinkdb_data
+2016-03-28T20:35:36.305775000 0.651640s info: Automatically using cache size of 100 MB
+2016-03-28T20:35:36.305783000 0.651647s warn: Cache size does not leave much memory for server and query overhead (available memory: 645 MB).
+2016-03-28T20:35:36.305793000 0.651657s warn: Cache size is very low and may impact performance.
+2016-03-28T20:35:36.306713000 0.652577s notice: Listening for intracluster connections on port 29015
+2016-03-28T20:35:36.309198000 0.655063s notice: Listening for client driver connections on port 28015
+2016-03-28T20:35:36.309337000 0.655201s notice: Listening for administrative HTTP connections on port 8080
+2016-03-28T20:35:36.309341000 0.655205s notice: Listening on addresses: 127.0.0.1, ::1
+2016-03-28T20:35:36.309342000 0.655206s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-03-28T20:35:36.309344000 0.655208s notice: Server ready, "MacBook_Pro_042" c8f26292-057b-467d-abeb-dd8a25bae963
+2016-03-28T20:35:48.423484000 12.769513s info: Table 503c33f0-401a-4962-9863-1744311d854a: Added replica on this server.
+2016-03-28T20:35:49.582018000 13.928047s info: Table 503c33f0-401a-4962-9863-1744311d854a: Starting a new Raft election for term 1.
+2016-03-28T20:35:49.602280000 13.948309s info: Table 503c33f0-401a-4962-9863-1744311d854a: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-28T20:36:17.221360000 41.567758s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/503c33f0-401a-4962-9863-1744311d854a
+2016-03-28T20:36:17.221367000 41.567766s info: Table 503c33f0-401a-4962-9863-1744311d854a: Deleted the table.
+2016-03-28T20:37:15.174556000 99.521713s info: Table 3567cc02-0131-458f-bb69-a3a7a74b87f1: Added replica on this server.
+2016-03-28T20:37:16.748719000 101.095896s info: Table 3567cc02-0131-458f-bb69-a3a7a74b87f1: Starting a new Raft election for term 1.
+2016-03-28T20:37:16.767011000 101.114188s info: Table 3567cc02-0131-458f-bb69-a3a7a74b87f1: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-28T20:39:25.247679000 229.596518s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/3567cc02-0131-458f-bb69-a3a7a74b87f1
+2016-03-28T20:39:25.247687000 229.596527s info: Table 3567cc02-0131-458f-bb69-a3a7a74b87f1: Deleted the table.
+2016-03-28T20:39:36.732582000 241.081565s info: Table 37a6f78d-2389-4774-b3e8-db1d4199c82b: Added replica on this server.
+2016-03-28T20:39:38.596515000 242.945539s info: Table 37a6f78d-2389-4774-b3e8-db1d4199c82b: Starting a new Raft election for term 1.
+2016-03-28T20:39:38.629637000 242.978661s info: Table 37a6f78d-2389-4774-b3e8-db1d4199c82b: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-28T20:43:08.546407000 452.898160s info: Table 37a6f78d-2389-4774-b3e8-db1d4199c82b: Configuration is changing.
+2016-03-28T21:24:05.694975000 2910.081039s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/37a6f78d-2389-4774-b3e8-db1d4199c82b
+2016-03-28T21:24:05.694983000 2910.081047s info: Table 37a6f78d-2389-4774-b3e8-db1d4199c82b: Deleted the table.
+2016-03-28T21:24:14.160220000 2918.546402s info: Table 09825294-3771-44b3-96f0-080ab5dd71e8: Added replica on this server.
+2016-03-28T21:24:15.370837000 2919.757042s info: Table 09825294-3771-44b3-96f0-080ab5dd71e8: Starting a new Raft election for term 1.
+2016-03-28T21:24:15.383779000 2919.769984s info: Table 09825294-3771-44b3-96f0-080ab5dd71e8: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-28T21:29:45.801747000 3250.192805s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/09825294-3771-44b3-96f0-080ab5dd71e8
+2016-03-28T21:29:45.801754000 3250.192813s info: Table 09825294-3771-44b3-96f0-080ab5dd71e8: Deleted the table.
+2016-03-28T21:29:58.602751000 3262.994016s info: Table cc479b92-3347-4ebc-87ce-dd4c4c61db07: Added replica on this server.
+2016-03-28T21:29:59.799926000 3264.191190s info: Table cc479b92-3347-4ebc-87ce-dd4c4c61db07: Starting a new Raft election for term 1.
+2016-03-28T21:29:59.817215000 3264.208479s info: Table cc479b92-3347-4ebc-87ce-dd4c4c61db07: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-28T21:31:46.955985000 3371.348799s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/cc479b92-3347-4ebc-87ce-dd4c4c61db07
+2016-03-28T21:31:46.955993000 3371.348807s info: Table cc479b92-3347-4ebc-87ce-dd4c4c61db07: Deleted the table.
+2016-03-28T21:31:52.207858000 3376.600763s info: Table a05ec773-5f4f-4bc3-a765-dd60d7a413f4: Added replica on this server.
+2016-03-28T21:31:53.253182000 3377.646087s info: Table a05ec773-5f4f-4bc3-a765-dd60d7a413f4: Starting a new Raft election for term 1.
+2016-03-28T21:31:53.283590000 3377.676496s info: Table a05ec773-5f4f-4bc3-a765-dd60d7a413f4: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-28T21:32:27.119938000 3411.513341s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/a05ec773-5f4f-4bc3-a765-dd60d7a413f4
+2016-03-28T21:32:27.119945000 3411.513348s info: Table a05ec773-5f4f-4bc3-a765-dd60d7a413f4: Deleted the table.
+2016-03-28T21:32:31.893659000 3416.287130s info: Table 006a4c5b-e57b-49a3-b5c1-c36591fa17ca: Added replica on this server.
+2016-03-28T21:32:33.702811000 3418.096305s info: Table 006a4c5b-e57b-49a3-b5c1-c36591fa17ca: Starting a new Raft election for term 1.
+2016-03-28T21:32:33.722043000 3418.115538s info: Table 006a4c5b-e57b-49a3-b5c1-c36591fa17ca: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-28T21:33:10.275573000 3454.669597s info: Table 006a4c5b-e57b-49a3-b5c1-c36591fa17ca: Configuration is changing.
+2016-03-28T22:03:27.914800000 5272.335743s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/006a4c5b-e57b-49a3-b5c1-c36591fa17ca
+2016-03-28T22:03:27.914809000 5272.335751s info: Table 006a4c5b-e57b-49a3-b5c1-c36591fa17ca: Deleted the table.
+2016-03-28T22:03:32.763334000 5277.184348s info: Table 3b47aa6b-51c4-4d63-a941-4dcb6a09100f: Added replica on this server.
+2016-03-28T22:03:34.692392000 5279.113428s info: Table 3b47aa6b-51c4-4d63-a941-4dcb6a09100f: Starting a new Raft election for term 1.
+2016-03-28T22:03:34.709598000 5279.130635s info: Table 3b47aa6b-51c4-4d63-a941-4dcb6a09100f: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-28T22:03:39.005580000 5283.426688s info: Table 3b47aa6b-51c4-4d63-a941-4dcb6a09100f: Configuration is changing.
+2016-03-28T22:15:45.037572000 6009.468952s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/3b47aa6b-51c4-4d63-a941-4dcb6a09100f
+2016-03-28T22:15:45.037579000 6009.468960s info: Table 3b47aa6b-51c4-4d63-a941-4dcb6a09100f: Deleted the table.
+2016-03-28T22:15:57.649448000 6022.080997s info: Table 149d320a-8324-4baa-b6cc-60ee41cdf4b7: Added replica on this server.
+2016-03-28T22:15:59.568539000 6024.000109s info: Table 149d320a-8324-4baa-b6cc-60ee41cdf4b7: Starting a new Raft election for term 1.
+2016-03-28T22:15:59.595249000 6024.026819s info: Table 149d320a-8324-4baa-b6cc-60ee41cdf4b7: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-28T22:16:08.054027000 6032.485724s info: Table 149d320a-8324-4baa-b6cc-60ee41cdf4b7: Configuration is changing.
+2016-03-28T22:33:09.941813000 7054.387750s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/149d320a-8324-4baa-b6cc-60ee41cdf4b7
+2016-03-28T22:33:09.941822000 7054.387758s info: Table 149d320a-8324-4baa-b6cc-60ee41cdf4b7: Deleted the table.
+2016-03-28T22:33:17.472128000 7061.918150s info: Table ccb4220b-0029-4e38-bd96-e9393768e81d: Added replica on this server.
+2016-03-28T22:33:19.108112000 7063.554157s info: Table ccb4220b-0029-4e38-bd96-e9393768e81d: Starting a new Raft election for term 1.
+2016-03-28T22:33:19.133204000 7063.579249s info: Table ccb4220b-0029-4e38-bd96-e9393768e81d: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-28T22:33:27.167058000 7071.613231s info: Table ccb4220b-0029-4e38-bd96-e9393768e81d: Configuration is changing.
+2016-03-28T22:36:32.349027000 7256.797721s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/ccb4220b-0029-4e38-bd96-e9393768e81d
+2016-03-28T22:36:32.349035000 7256.797728s info: Table ccb4220b-0029-4e38-bd96-e9393768e81d: Deleted the table.
+2016-03-28T22:36:34.813547000 7259.262260s info: Table 7fc766e9-594b-4d6c-a517-7c753733f693: Added replica on this server.
+2016-03-28T22:36:36.258489000 7260.707222s info: Table 7fc766e9-594b-4d6c-a517-7c753733f693: Starting a new Raft election for term 1.
+2016-03-28T22:36:36.273583000 7260.722317s info: Table 7fc766e9-594b-4d6c-a517-7c753733f693: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-28T22:36:41.182726000 7265.631521s info: Table 7fc766e9-594b-4d6c-a517-7c753733f693: Configuration is changing.
+2016-03-29T13:02:14.312682000 22754.293612s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/7fc766e9-594b-4d6c-a517-7c753733f693
+2016-03-29T13:02:14.312692000 22754.293620s info: Table 7fc766e9-594b-4d6c-a517-7c753733f693: Deleted the table.
+2016-03-29T13:02:17.880876000 22757.861866s info: Table a116df0f-67ae-45f0-824e-2ce4c91da855: Added replica on this server.
+2016-03-29T13:02:19.298085000 22759.279095s info: Table a116df0f-67ae-45f0-824e-2ce4c91da855: Starting a new Raft election for term 1.
+2016-03-29T13:02:19.318946000 22759.299955s info: Table a116df0f-67ae-45f0-824e-2ce4c91da855: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-29T13:03:29.121208000 22829.103216s info: Table a116df0f-67ae-45f0-824e-2ce4c91da855: Configuration is changing.
+2016-03-29T13:51:54.933737000 25734.952145s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/a116df0f-67ae-45f0-824e-2ce4c91da855
+2016-03-29T13:51:54.933746000 25734.952153s info: Table a116df0f-67ae-45f0-824e-2ce4c91da855: Deleted the table.
+2016-03-29T13:51:59.503173000 25739.521647s info: Table 8a1d2370-e3ac-4fe1-8ffa-313e1ef92efa: Added replica on this server.
+2016-03-29T13:52:00.786518000 25740.805009s info: Table 8a1d2370-e3ac-4fe1-8ffa-313e1ef92efa: Starting a new Raft election for term 1.
+2016-03-29T13:52:00.819087000 25740.837579s info: Table 8a1d2370-e3ac-4fe1-8ffa-313e1ef92efa: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-29T13:52:37.003804000 25777.022719s info: Table 8a1d2370-e3ac-4fe1-8ffa-313e1ef92efa: Configuration is changing.
+2016-03-29T14:37:49.068535000 28489.121154s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/8a1d2370-e3ac-4fe1-8ffa-313e1ef92efa
+2016-03-29T14:37:49.068543000 28489.121161s info: Table 8a1d2370-e3ac-4fe1-8ffa-313e1ef92efa: Deleted the table.
+2016-03-29T14:37:51.931631000 28491.984285s info: Table 4318bd3f-d89a-4f8b-8d16-5323d5891fb1: Added replica on this server.
+2016-03-29T14:37:53.277191000 28493.329863s info: Table 4318bd3f-d89a-4f8b-8d16-5323d5891fb1: Starting a new Raft election for term 1.
+2016-03-29T14:37:53.304563000 28493.357235s info: Table 4318bd3f-d89a-4f8b-8d16-5323d5891fb1: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-29T14:44:23.295386000 28883.353090s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/4318bd3f-d89a-4f8b-8d16-5323d5891fb1
+2016-03-29T14:44:23.295394000 28883.353097s info: Table 4318bd3f-d89a-4f8b-8d16-5323d5891fb1: Deleted the table.
+2016-03-29T14:44:26.136880000 28886.194621s info: Table 6b698134-4a31-4d6e-bffd-3d8a9ad39671: Added replica on this server.
+2016-03-29T14:44:27.953226000 28888.010985s info: Table 6b698134-4a31-4d6e-bffd-3d8a9ad39671: Starting a new Raft election for term 1.
+2016-03-29T14:44:27.973818000 28888.031577s info: Table 6b698134-4a31-4d6e-bffd-3d8a9ad39671: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-29T14:47:24.475951000 29064.536034s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/6b698134-4a31-4d6e-bffd-3d8a9ad39671
+2016-03-29T14:47:24.475958000 29064.536042s info: Table 6b698134-4a31-4d6e-bffd-3d8a9ad39671: Deleted the table.
+2016-03-29T14:47:26.784667000 29066.844789s info: Table 1fea40d9-0a63-4407-81bf-d5444e6f65df: Added replica on this server.
+2016-03-29T14:47:28.660379000 29068.720520s info: Table 1fea40d9-0a63-4407-81bf-d5444e6f65df: Starting a new Raft election for term 1.
+2016-03-29T14:47:28.680853000 29068.740993s info: Table 1fea40d9-0a63-4407-81bf-d5444e6f65df: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-29T14:47:37.099419000 29077.159672s info: Table 1fea40d9-0a63-4407-81bf-d5444e6f65df: Configuration is changing.
+2016-03-29T15:20:30.509870000 31050.596232s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/1fea40d9-0a63-4407-81bf-d5444e6f65df
+2016-03-29T15:20:30.509881000 31050.596242s info: Table 1fea40d9-0a63-4407-81bf-d5444e6f65df: Deleted the table.
+2016-03-29T15:20:33.089527000 31053.175928s info: Table 71498759-ca59-4f9c-adb3-57c36cd02fc8: Added replica on this server.
+2016-03-29T15:20:34.490337000 31054.576738s info: Table 71498759-ca59-4f9c-adb3-57c36cd02fc8: Starting a new Raft election for term 1.
+2016-03-29T15:20:34.520791000 31054.607212s info: Table 71498759-ca59-4f9c-adb3-57c36cd02fc8: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-29T15:20:37.660770000 31057.747231s info: Table 71498759-ca59-4f9c-adb3-57c36cd02fc8: Configuration is changing.
+2016-03-29T19:35:48.727704000 41685.024064s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/71498759-ca59-4f9c-adb3-57c36cd02fc8
+2016-03-29T19:35:48.727713000 41685.024073s info: Table 71498759-ca59-4f9c-adb3-57c36cd02fc8: Deleted the table.
+2016-03-29T19:35:52.049142000 41688.345527s info: Table e0da4c5d-13b7-4b76-927f-8b5e630bf7cd: Added replica on this server.
+2016-03-29T19:35:53.310159000 41689.606555s info: Table e0da4c5d-13b7-4b76-927f-8b5e630bf7cd: Starting a new Raft election for term 1.
+2016-03-29T19:35:53.326797000 41689.623193s info: Table e0da4c5d-13b7-4b76-927f-8b5e630bf7cd: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-29T19:36:42.775753000 41739.072587s info: Table e0da4c5d-13b7-4b76-927f-8b5e630bf7cd: Configuration is changing.
+2016-03-29T19:37:57.025778000 41813.323279s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/e0da4c5d-13b7-4b76-927f-8b5e630bf7cd
+2016-03-29T19:37:57.025786000 41813.323287s info: Table e0da4c5d-13b7-4b76-927f-8b5e630bf7cd: Deleted the table.
+2016-03-29T19:38:00.420330000 41816.717856s info: Table 66f69730-2602-45a1-93db-11ab8d5c51b8: Added replica on this server.
+2016-03-29T19:38:02.226312000 41818.523852s info: Table 66f69730-2602-45a1-93db-11ab8d5c51b8: Starting a new Raft election for term 1.
+2016-03-29T19:38:02.249682000 41818.547222s info: Table 66f69730-2602-45a1-93db-11ab8d5c51b8: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-29T19:38:07.303611000 41823.601201s info: Table 66f69730-2602-45a1-93db-11ab8d5c51b8: Configuration is changing.
+2016-03-29T19:41:51.158280000 42047.457894s notice: Removing file /Users/pandd/Sites/react-tutorial/rethinkdb_data/66f69730-2602-45a1-93db-11ab8d5c51b8
+2016-03-29T19:41:51.158289000 42047.457902s info: Table 66f69730-2602-45a1-93db-11ab8d5c51b8: Deleted the table.
+2016-03-29T19:41:53.391994000 42049.691621s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Added replica on this server.
+2016-03-29T19:41:55.152767000 42051.452419s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Starting a new Raft election for term 1.
+2016-03-29T19:41:55.183507000 42051.483159s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: This server is Raft leader for term 1. Latest log index is 0.
+2016-03-29T19:42:07.793183000 42064.092951s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Configuration is changing.
+2016-03-30T22:18:45.662827000 83997.181206s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:18:48.120544000 83999.638949s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:18:50.144264000 84001.662698s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:18:52.166936000 84003.685383s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:18:54.185527000 84005.704004s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:18:56.207295000 84007.725802s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:18:58.228048000 84009.746569s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:00.251161000 84011.769710s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:02.273614000 84013.792193s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:04.295830000 84015.814424s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:06.317285000 84017.835909s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:08.343210000 84019.861847s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:10.367333000 84021.886000s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:12.390147000 84023.908843s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:14.414032000 84025.932743s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:16.436529000 84027.955269s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:18.455795000 84029.974550s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:20.476645000 84031.995430s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:22.498810000 84034.017624s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:24.521598000 84036.040426s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:26.541749000 84038.060607s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:28.566431000 84040.085318s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:30.587909000 84042.106811s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:32.607942000 84044.126873s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:34.633034000 84046.151980s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:37.564627000 84049.083617s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:39.585790000 84051.104794s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:41.608764000 84053.127798s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:43.633842000 84055.152905s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:45.659188000 84057.178265s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:47.682162000 84059.201268s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:52.767778000 84064.286942s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:19:58.371993000 84069.891217s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:20:04.774818000 84076.294130s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:20:10.770702000 84082.290072s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:20:16.667267000 84088.186709s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:20:22.291843000 84093.811360s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:20:28.636930000 84100.156519s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:20:34.774112000 84106.293760s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:20:40.653933000 84112.173655s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:20:46.775810000 84118.295605s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:20:52.286401000 84123.806269s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:23:24.784512000 84276.306183s notice: Server got SIGINT from pid 669, uid 501; shutting down...
+2016-03-30T22:23:24.786308000 84276.307979s notice: Shutting down client connections...
+2016-03-30T22:23:24.793909000 84276.315580s notice: All client connections closed.
+2016-03-30T22:23:24.793923000 84276.315593s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-30T22:23:24.851365000 84276.373035s notice: Storage engine shut down.
+2016-03-30T22:24:30.388967000 0.465130s notice: Running rethinkdb 2.2.5 (CLANG 4.2 (clang-425.0.28))...
+2016-03-30T22:24:30.394616000 0.470776s notice: Running on Darwin 15.3.0 x86_64
+2016-03-30T22:24:30.394660000 0.470819s notice: Loading data from directory /Users/pandd/Sites/react-tutorial/rethinkdb_data
+2016-03-30T22:24:30.441904000 0.518064s info: Automatically using cache size of 100 MB
+2016-03-30T22:24:30.441911000 0.518071s warn: Cache size does not leave much memory for server and query overhead (available memory: 180 MB).
+2016-03-30T22:24:30.441922000 0.518081s warn: Cache size is very low and may impact performance.
+2016-03-30T22:24:30.442815000 0.518975s notice: Listening for intracluster connections on port 29015
+2016-03-30T22:24:30.476825000 0.552984s notice: Listening for client driver connections on port 28015
+2016-03-30T22:24:30.476987000 0.553146s notice: Listening for administrative HTTP connections on port 8080
+2016-03-30T22:24:30.476988000 0.553147s notice: Listening on addresses: 127.0.0.1, ::1
+2016-03-30T22:24:30.476989000 0.553148s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-03-30T22:24:30.477064000 0.553223s notice: Server ready, "MacBook_Pro_042" c8f26292-057b-467d-abeb-dd8a25bae963
+2016-03-30T22:24:31.333229000 1.409404s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:24:31.828905000 1.905080s notice: A newer version of the RethinkDB server is available: 2.2.6. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-03-30T22:24:31.995497000 2.071671s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Starting a new Raft election for term 2.
+2016-03-30T22:24:32.030931000 2.107106s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: This server is Raft leader for term 2. Latest log index is 4.
+2016-03-30T22:24:33.356313000 3.432503s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:24:35.589732000 5.665952s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:24:36.834602000 6.910836s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:24:38.859577000 8.935842s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:24:40.884564000 10.960844s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:24:41.691950000 11.768244s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:24:43.717759000 13.794068s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:24:45.737266000 15.813605s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:24:47.761459000 17.837828s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:24:49.783341000 19.859725s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:24:51.758684000 21.835098s notice: Server got SIGINT from pid 669, uid 501; shutting down...
+2016-03-30T22:24:51.758996000 21.835410s notice: Shutting down client connections...
+2016-03-30T22:24:51.759148000 21.835562s notice: All client connections closed.
+2016-03-30T22:24:51.759154000 21.835567s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-30T22:24:51.771863000 21.848277s notice: Storage engine shut down.
+2016-03-30T22:34:56.132481000 0.466720s notice: Running rethinkdb 2.2.5 (CLANG 4.2 (clang-425.0.28))...
+2016-03-30T22:34:56.139905000 0.474140s notice: Running on Darwin 15.3.0 x86_64
+2016-03-30T22:34:56.139957000 0.474190s notice: Loading data from directory /Users/pandd/Sites/react-tutorial/rethinkdb_data
+2016-03-30T22:34:56.183704000 0.517937s info: Automatically using cache size of 100 MB
+2016-03-30T22:34:56.183712000 0.517945s warn: Cache size does not leave much memory for server and query overhead (available memory: 351 MB).
+2016-03-30T22:34:56.183722000 0.517955s warn: Cache size is very low and may impact performance.
+2016-03-30T22:34:56.184657000 0.518891s notice: Listening for intracluster connections on port 29015
+2016-03-30T22:34:56.211174000 0.545407s notice: Listening for client driver connections on port 28015
+2016-03-30T22:34:56.211349000 0.545583s notice: Listening for administrative HTTP connections on port 8080
+2016-03-30T22:34:56.211351000 0.545584s notice: Listening on addresses: 127.0.0.1, ::1
+2016-03-30T22:34:56.211429000 0.545663s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-03-30T22:34:56.211431000 0.545664s notice: Server ready, "MacBook_Pro_042" c8f26292-057b-467d-abeb-dd8a25bae963
+2016-03-30T22:34:57.000353000 1.334600s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:34:57.363411000 1.697659s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Starting a new Raft election for term 3.
+2016-03-30T22:34:57.391790000 1.726037s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: This server is Raft leader for term 3. Latest log index is 8.
+2016-03-30T22:34:58.774517000 3.108780s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:34:58.775323000 3.109585s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:00.727091000 5.061382s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:02.274329000 6.608634s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:04.693317000 9.027651s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:04.693672000 9.028006s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:06.549930000 10.884277s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:09.017111000 13.351488s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:10.293291000 14.627681s notice: A newer version of the RethinkDB server is available: 2.2.6. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-03-30T22:35:10.715590000 15.049995s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:10.716101000 15.050506s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:12.745683000 17.080102s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:15.025736000 19.360184s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:16.713451000 21.047913s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:16.713788000 21.048249s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:18.296204000 22.630694s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:20.268775000 24.603280s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:22.538079000 26.872612s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:22.538448000 26.872980s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:24.661302000 28.995865s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:25.334117000 29.668679s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:26.268739000 30.603315s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:27.828927000 32.163518s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:28.728085000 33.062689s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:28.729090000 33.063695s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:29.872134000 34.206753s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:30.628876000 34.963510s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:31.894493000 36.229141s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:32.998988000 37.333636s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:33.915934000 38.250595s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:34.709699000 39.044375s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:34.710223000 39.044898s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:35.935925000 40.270615s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:36.320894000 40.655585s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:37.958465000 42.293170s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:38.266783000 42.601502s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:39.980207000 44.314941s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:40.544701000 44.879449s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:40.545160000 44.879908s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:42.003706000 46.338468s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:42.620762000 46.955523s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:43.641257000 47.976034s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:44.104239000 48.439016s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:46.298155000 50.632960s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:46.329529000 50.664334s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:48.281803000 52.616637s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:48.282275000 52.617109s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:50.305868000 54.640717s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:52.266724000 56.601601s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:52.820933000 57.155810s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:54.540118000 58.875024s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:54.540444000 58.875349s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:56.625060000 60.959980s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:58.280440000 62.615390s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:35:58.297626000 62.632575s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:00.768976000 65.103954s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:00.769300000 65.104278s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:02.266683000 66.601675s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:04.657817000 68.992837s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:04.888413000 69.223433s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:06.680483000 71.015518s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:06.680870000 71.015904s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:08.692727000 73.027791s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:10.653133000 74.988225s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:11.051111000 75.386204s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:12.361018000 76.696126s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:12.362078000 76.697186s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:14.696238000 79.031374s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:16.763338000 81.098503s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:17.051682000 81.386847s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:18.717548000 83.052728s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:18.717910000 83.053090s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:20.758021000 85.093230s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:22.762274000 87.097496s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:23.017094000 87.352331s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:24.771052000 89.106304s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:24.771553000 89.106805s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:26.324354000 90.659620s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:28.757562000 93.092857s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:29.234237000 93.569533s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:30.769549000 95.104873s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:30.769666000 95.104989s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:32.491736000 96.827075s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:34.279582000 98.614950s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:34.281058000 98.616426s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:36.742041000 101.077437s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:36.742185000 101.077580s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:38.632766000 102.968177s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:40.266530000 104.601954s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:40.759087000 105.094527s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:42.528747000 106.864201s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:42.529048000 106.864502s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:44.505785000 108.841269s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:46.759091000 111.094603s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:47.124689000 111.460201s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:48.735537000 113.071064s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:48.735999000 113.071526s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:50.727445000 115.063001s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:52.765547000 117.101117s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:53.030079000 117.365664s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:54.720395000 119.055996s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:54.720955000 119.056555s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:56.268281000 120.603895s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:58.641420000 122.977063s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:36:59.257918000 123.593576s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:00.276202000 124.611874s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:00.276859000 124.612531s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:02.516447000 126.852134s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:04.756060000 129.091776s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:05.142201000 129.477917s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:06.738821000 131.074566s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:06.739220000 131.074965s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:08.720211000 133.055970s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:10.760934000 135.096723s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:11.035600000 135.371389s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:12.770025000 137.105828s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:12.770529000 137.106331s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:14.741499000 139.077331s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:16.681205000 141.017066s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:17.023978000 141.359839s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:18.764022000 143.099898s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:18.764825000 143.100701s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:20.352796000 144.688687s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:22.281857000 146.617777s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:22.283368000 146.619288s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:24.555779000 148.891728s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:24.556091000 148.892039s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:26.590584000 150.926548s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:28.652123000 152.988116s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:28.672313000 153.008306s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:30.307978000 154.643985s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:30.308078000 154.644085s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:32.663269000 156.999305s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:34.267643000 158.603708s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:34.767968000 159.104033s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:36.682246000 161.018340s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:36.682588000 161.018681s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:38.559548000 162.895656s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:40.761558000 165.097695s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:41.014191000 165.350328s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:42.714096000 167.050248s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:42.714801000 167.050953s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:44.275973000 168.612154s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:46.633421000 170.969629s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:47.262573000 171.598782s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:48.760558000 173.096781s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:48.761079000 173.097303s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:50.640271000 174.976524s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:52.659068000 176.995335s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:52.761229000 177.097496s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:54.616751000 178.953047s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:54.617122000 178.953417s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:56.618686000 180.954997s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:58.764449000 183.100789s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:37:59.085664000 183.422004s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:00.277090000 184.613444s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:00.277985000 184.614339s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:02.664642000 187.001025s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:04.761111000 189.097523s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:04.951192000 189.287604s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:06.689357000 191.025784s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:06.689738000 191.026164s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:08.346006000 192.682463s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:10.767986000 195.104471s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:11.224363000 195.560847s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:12.767487000 197.103986s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:12.767880000 197.104378s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:14.489002000 198.825530s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:16.500093000 200.836636s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:17.149293000 201.485850s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:18.742977000 203.079549s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:18.744158000 203.080730s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:20.463653000 204.800239s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:22.278435000 206.615050s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:22.279550000 206.616165s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:24.599505000 208.936150s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:24.599838000 208.936483s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:26.592743000 210.929401s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:28.660839000 212.997527s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:28.661988000 212.998676s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:30.626549000 214.963266s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:30.627317000 214.964034s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:32.623433000 216.960165s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:34.764520000 219.101281s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:35.083604000 219.420365s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:36.730182000 221.066958s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:36.730559000 221.067335s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:38.764955000 223.101761s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:40.266013000 224.602832s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:40.773097000 225.109931s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:42.397343000 226.734191s notice: Server got SIGINT from pid 669, uid 501; shutting down...
+2016-03-30T22:38:42.397625000 226.734472s notice: Shutting down client connections...
+2016-03-30T22:38:42.397821000 226.734669s notice: All client connections closed.
+2016-03-30T22:38:42.397827000 226.734674s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-30T22:38:42.413389000 226.750237s notice: Storage engine shut down.
+2016-03-30T22:38:43.621346000 0.421742s notice: Running rethinkdb 2.2.5 (CLANG 4.2 (clang-425.0.28))...
+2016-03-30T22:38:43.627950000 0.428342s notice: Running on Darwin 15.3.0 x86_64
+2016-03-30T22:38:43.628000000 0.428392s notice: Loading data from directory /Users/pandd/Sites/react-tutorial/rethinkdb_data
+2016-03-30T22:38:43.726025000 0.526416s info: Automatically using cache size of 100 MB
+2016-03-30T22:38:43.726033000 0.526424s warn: Cache size does not leave much memory for server and query overhead (available memory: 267 MB).
+2016-03-30T22:38:43.726045000 0.526436s warn: Cache size is very low and may impact performance.
+2016-03-30T22:38:43.727084000 0.527476s notice: Listening for intracluster connections on port 29015
+2016-03-30T22:38:43.749870000 0.550262s notice: Listening for client driver connections on port 28015
+2016-03-30T22:38:43.750116000 0.550507s notice: Listening for administrative HTTP connections on port 8080
+2016-03-30T22:38:43.750117000 0.550508s notice: Listening on addresses: 127.0.0.1, ::1
+2016-03-30T22:38:43.750118000 0.550509s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-03-30T22:38:43.750119000 0.550510s notice: Server ready, "MacBook_Pro_042" c8f26292-057b-467d-abeb-dd8a25bae963
+2016-03-30T22:38:44.495204000 1.295611s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:45.480783000 2.281190s notice: A newer version of the RethinkDB server is available: 2.2.6. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-03-30T22:38:45.599017000 2.399437s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Starting a new Raft election for term 4.
+2016-03-30T22:38:45.622793000 2.423213s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: This server is Raft leader for term 4. Latest log index is 11.
+2016-03-30T22:38:46.277063000 3.077483s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:47.000665000 3.801101s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:48.773702000 5.574152s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:48.774572000 5.575022s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:50.266223000 7.066687s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:52.356961000 9.157455s notice: Server got SIGINT from pid 669, uid 501; shutting down...
+2016-03-30T22:38:52.357207000 9.157700s notice: Shutting down client connections...
+2016-03-30T22:38:52.357343000 9.157836s notice: All client connections closed.
+2016-03-30T22:38:52.357348000 9.157841s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-30T22:38:52.359996000 9.160490s notice: Storage engine shut down.
+2016-03-30T22:38:52.994507000 0.009838s notice: Running rethinkdb 2.2.5 (CLANG 4.2 (clang-425.0.28))...
+2016-03-30T22:38:52.998788000 0.014116s notice: Running on Darwin 15.3.0 x86_64
+2016-03-30T22:38:52.998842000 0.014168s notice: Loading data from directory /Users/pandd/Sites/react-tutorial/rethinkdb_data
+2016-03-30T22:38:53.046249000 0.061576s info: Automatically using cache size of 100 MB
+2016-03-30T22:38:53.046272000 0.061599s warn: Cache size does not leave much memory for server and query overhead (available memory: 325 MB).
+2016-03-30T22:38:53.046282000 0.061608s warn: Cache size is very low and may impact performance.
+2016-03-30T22:38:53.047433000 0.062760s notice: Listening for intracluster connections on port 29015
+2016-03-30T22:38:53.070457000 0.085783s notice: Listening for client driver connections on port 28015
+2016-03-30T22:38:53.070711000 0.086037s notice: Listening for administrative HTTP connections on port 8080
+2016-03-30T22:38:53.070727000 0.086054s notice: Listening on addresses: 127.0.0.1, ::1
+2016-03-30T22:38:53.070729000 0.086056s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-03-30T22:38:53.070731000 0.086058s notice: Server ready, "MacBook_Pro_042" c8f26292-057b-467d-abeb-dd8a25bae963
+2016-03-30T22:38:54.155887000 1.171213s notice: A newer version of the RethinkDB server is available: 2.2.6. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-03-30T22:38:54.240079000 1.255421s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Starting a new Raft election for term 5.
+2016-03-30T22:38:54.262486000 1.277828s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: This server is Raft leader for term 5. Latest log index is 14.
+2016-03-30T22:38:54.762265000 1.777606s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:54.762678000 1.778019s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:56.426976000 3.442332s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:38:59.178011000 6.193396s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:00.746786000 7.762201s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:00.747484000 7.762898s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:02.474113000 9.489542s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:05.164209000 12.179667s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:06.747095000 13.762567s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:06.747548000 13.763020s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:08.468132000 15.483634s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:10.267964000 17.283481s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:12.600511000 19.616057s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:12.600940000 19.616487s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:14.592774000 21.608350s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:17.089377000 24.104981s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:18.724046000 25.739665s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:18.724905000 25.740525s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:20.753667000 27.769315s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:22.265405000 29.281069s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:24.700307000 31.715999s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:24.700625000 31.716317s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:26.539246000 33.554954s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:28.997638000 36.013374s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:30.701807000 37.717574s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:30.702185000 37.717951s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:32.271843000 39.287624s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:35.260499000 42.276310s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:36.763571000 43.779396s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:36.764004000 43.779830s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:38.264354000 45.280208s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:40.264034000 47.279904s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:42.273379000 49.289278s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:42.273693000 49.289592s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:44.755823000 51.771752s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:47.013630000 54.029588s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:48.592652000 55.608625s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:48.593033000 55.609006s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:50.268125000 57.284113s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:52.269966000 59.285983s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:54.650105000 61.666151s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:54.650481000 61.666527s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:56.422322000 63.438398s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:39:59.065537000 66.081643s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:00.273206000 67.289326s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:00.273544000 67.289664s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:02.655455000 69.671605s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:05.064917000 72.081082s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:06.719706000 73.735900s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:06.720095000 73.736289s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:08.755162000 75.771371s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:11.017251000 78.033490s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:12.706960000 79.723228s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:12.707283000 79.723551s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:14.744386000 81.760669s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:17.021012000 84.037325s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:18.712423000 85.728751s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:18.712870000 85.729198s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:20.306068000 87.322425s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:22.640161000 89.656533s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:24.572863000 91.589265s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:24.573169000 91.589571s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:26.619216000 93.635646s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:29.084062000 96.100523s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:30.720371000 97.736847s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:30.721106000 97.737581s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:32.442675000 99.459165s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:35.172540000 102.189061s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:36.746730000 103.763279s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:36.747060000 103.763610s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:38.688409000 105.704974s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:41.047475000 108.064069s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:42.717376000 109.733986s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:42.717820000 109.734429s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:44.366166000 111.382805s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:46.381055000 113.397709s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:40:52.435490000 119.452219s notice: Server got SIGINT from pid 669, uid 501; shutting down...
+2016-03-30T22:40:52.435733000 119.452462s notice: Shutting down client connections...
+2016-03-30T22:40:52.435890000 119.452618s notice: All client connections closed.
+2016-03-30T22:40:52.435896000 119.452625s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-30T22:40:52.443367000 119.460096s notice: Storage engine shut down.
+2016-03-30T22:40:53.688559000 0.420755s notice: Running rethinkdb 2.2.5 (CLANG 4.2 (clang-425.0.28))...
+2016-03-30T22:40:53.699618000 0.431810s notice: Running on Darwin 15.3.0 x86_64
+2016-03-30T22:40:53.699678000 0.431869s notice: Loading data from directory /Users/pandd/Sites/react-tutorial/rethinkdb_data
+2016-03-30T22:40:53.760074000 0.492265s info: Automatically using cache size of 651 MB
+2016-03-30T22:40:53.761468000 0.493660s notice: Listening for intracluster connections on port 29015
+2016-03-30T22:40:53.795137000 0.527328s notice: Listening for client driver connections on port 28015
+2016-03-30T22:40:53.795363000 0.527554s notice: Listening for administrative HTTP connections on port 8080
+2016-03-30T22:40:53.795366000 0.527557s notice: Listening on addresses: 127.0.0.1, ::1
+2016-03-30T22:40:53.795367000 0.527558s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-03-30T22:40:53.795368000 0.527559s notice: Server ready, "MacBook_Pro_042" c8f26292-057b-467d-abeb-dd8a25bae963
+2016-03-30T22:40:54.804206000 1.536411s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Starting a new Raft election for term 6.
+2016-03-30T22:40:54.827701000 1.559906s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: This server is Raft leader for term 6. Latest log index is 17.
+2016-03-30T22:40:54.882789000 1.614994s notice: A newer version of the RethinkDB server is available: 2.2.6. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-03-30T22:41:13.939530000 20.671975s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:41:13.939630000 20.672073s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:41:16.431629000 23.164103s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:41:17.597527000 24.330017s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:41:19.890170000 26.622674s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:41:19.890660000 26.623164s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:41:22.428370000 29.160904s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:41:23.994252000 30.726816s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:41:25.353464000 32.086043s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:41:25.353988000 32.086567s notice: Someone asked for the nonwhitelisted file "/api/comments".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:42:48.303403000 115.036975s notice: Server got SIGINT from pid 669, uid 501; shutting down...
+2016-03-30T22:42:48.303777000 115.037349s notice: Shutting down client connections...
+2016-03-30T22:42:48.303939000 115.037511s notice: All client connections closed.
+2016-03-30T22:42:48.303943000 115.037515s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-30T22:42:48.313060000 115.046632s notice: Storage engine shut down.
+2016-03-30T22:42:49.405699000 0.426580s notice: Running rethinkdb 2.2.5 (CLANG 4.2 (clang-425.0.28))...
+2016-03-30T22:42:49.415133000 0.436010s notice: Running on Darwin 15.3.0 x86_64
+2016-03-30T22:42:49.415196000 0.436073s notice: Loading data from directory /Users/pandd/Sites/react-tutorial/rethinkdb_data
+2016-03-30T22:42:49.460342000 0.481219s info: Automatically using cache size of 100 MB
+2016-03-30T22:42:49.460349000 0.481226s warn: Cache size does not leave much memory for server and query overhead (available memory: 612 MB).
+2016-03-30T22:42:49.460353000 0.481230s warn: Cache size is very low and may impact performance.
+2016-03-30T22:42:49.461587000 0.482464s notice: Listening for intracluster connections on port 29015
+2016-03-30T22:42:49.481830000 0.502707s notice: Listening for client driver connections on port 28015
+2016-03-30T22:42:49.482133000 0.503010s notice: Listening for administrative HTTP connections on port 8080
+2016-03-30T22:42:49.482134000 0.503011s notice: Listening on addresses: 127.0.0.1, ::1
+2016-03-30T22:42:49.482141000 0.503017s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-03-30T22:42:49.482141001 0.503018s notice: Server ready, "MacBook_Pro_042" c8f26292-057b-467d-abeb-dd8a25bae963
+2016-03-30T22:42:50.577110000 1.598001s notice: A newer version of the RethinkDB server is available: 2.2.6. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-03-30T22:42:50.598335000 1.619228s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Starting a new Raft election for term 7.
+2016-03-30T22:42:50.617559000 1.638451s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: This server is Raft leader for term 7. Latest log index is 20.
+2016-03-30T22:44:06.743742000 77.765547s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:44:08.765731000 79.787566s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:44:10.785064000 81.806914s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:44:12.803974000 83.825855s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-03-30T22:45:59.382050000 190.405239s notice: Server got SIGINT from pid 669, uid 501; shutting down...
+2016-03-30T22:45:59.382368000 190.405557s notice: Shutting down client connections...
+2016-03-30T22:45:59.392426000 190.415617s notice: All client connections closed.
+2016-03-30T22:45:59.392457000 190.415646s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-03-30T22:45:59.400281000 190.423470s notice: Storage engine shut down.
+2016-03-30T22:47:28.805313000 0.354055s notice: Running rethinkdb 2.2.5 (CLANG 4.2 (clang-425.0.28))...
+2016-03-30T22:47:28.810645000 0.359384s notice: Running on Darwin 15.3.0 x86_64
+2016-03-30T22:47:28.810706000 0.359444s notice: Loading data from directory /Users/pandd/Sites/react-tutorial/rethinkdb_data
+2016-03-30T22:47:28.862015000 0.410753s info: Automatically using cache size of 100 MB
+2016-03-30T22:47:28.862023000 0.410761s warn: Cache size is larger than available memory.
+2016-03-30T22:47:28.862028000 0.410766s warn: Cache size is very low and may impact performance.
+2016-03-30T22:47:28.862877000 0.411615s notice: Listening for intracluster connections on port 29015
+2016-03-30T22:47:28.894726000 0.443464s notice: Listening for client driver connections on port 28015
+2016-03-30T22:47:28.895531000 0.444269s notice: Listening for administrative HTTP connections on port 9999
+2016-03-30T22:47:28.895533000 0.444271s notice: Listening on addresses: 127.0.0.1, ::1
+2016-03-30T22:47:28.895534000 0.444272s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-03-30T22:47:28.895535000 0.444273s notice: Server ready, "MacBook_Pro_042" c8f26292-057b-467d-abeb-dd8a25bae963
+2016-03-30T22:47:30.563788000 2.112542s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Starting a new Raft election for term 8.
+2016-03-30T22:47:30.598127000 2.146881s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: This server is Raft leader for term 8. Latest log index is 23.
+2016-03-30T22:47:58.908086000 30.457200s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2016-04-02T16:33:17.830490000 86401.914956s notice: A newer version of the RethinkDB server is available: 2.2.6. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-04-03T16:28:54.126584000 0.457059s notice: Running rethinkdb 2.2.5 (CLANG 4.2 (clang-425.0.28))...
+2016-04-03T16:28:54.131016000 0.461489s notice: Running on Darwin 15.4.0 x86_64
+2016-04-03T16:28:54.131058000 0.461530s notice: Loading data from directory /Users/pandd/Sites/react-tutorial/rethinkdb_data
+2016-04-03T16:28:54.212010000 0.542497s info: Automatically using cache size of 100 MB
+2016-04-03T16:28:54.212018000 0.542504s warn: Cache size does not leave much memory for server and query overhead (available memory: 533 MB).
+2016-04-03T16:28:54.212021000 0.542508s warn: Cache size is very low and may impact performance.
+2016-04-03T16:28:54.212839000 0.543326s notice: Listening for intracluster connections on port 29015
+2016-04-03T16:28:54.248770000 0.579257s notice: Listening for client driver connections on port 28015
+2016-04-03T16:28:54.303957000 0.634445s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
+2016-04-03T16:29:10.837657000 0.417681s notice: Running rethinkdb 2.2.5 (CLANG 4.2 (clang-425.0.28))...
+2016-04-03T16:29:10.842699000 0.422720s notice: Running on Darwin 15.4.0 x86_64
+2016-04-03T16:29:10.842758000 0.422778s notice: Loading data from directory /Users/pandd/Sites/react-tutorial/rethinkdb_data
+2016-04-03T16:29:10.889273000 0.469292s info: Automatically using cache size of 100 MB
+2016-04-03T16:29:10.889283000 0.469302s warn: Cache size does not leave much memory for server and query overhead (available memory: 787 MB).
+2016-04-03T16:29:10.889288000 0.469307s warn: Cache size is very low and may impact performance.
+2016-04-03T16:29:10.890447000 0.470466s notice: Listening for intracluster connections on port 29015
+2016-04-03T16:29:10.930884000 0.510904s notice: Listening for client driver connections on port 28015
+2016-04-03T16:29:10.931042000 0.511061s notice: Listening for administrative HTTP connections on port 9999
+2016-04-03T16:29:10.931043000 0.511062s notice: Listening on addresses: 127.0.0.1, ::1
+2016-04-03T16:29:10.931044000 0.511062s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-04-03T16:29:10.931050000 0.511069s notice: Server ready, "MacBook_Pro_042" c8f26292-057b-467d-abeb-dd8a25bae963
+2016-04-03T16:29:12.072067000 1.652102s notice: A newer version of the RethinkDB server is available: 2.2.6. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-04-03T16:29:12.337520000 1.917569s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Starting a new Raft election for term 9.
+2016-04-03T16:29:12.367848000 1.947897s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: This server is Raft leader for term 9. Latest log index is 26.
+2016-04-04T12:33:31.908785000 37979.801497s notice: Server got SIGINT from pid 1370, uid 501; shutting down...
+2016-04-04T12:33:31.910982000 37979.803693s notice: Shutting down client connections...
+2016-04-04T12:33:31.913159000 37979.805871s notice: All client connections closed.
+2016-04-04T12:33:31.913170000 37979.805881s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-04-04T12:33:31.942060000 37979.834771s notice: Storage engine shut down.
+2016-04-05T15:09:51.154798000 0.390636s notice: Running rethinkdb 2.2.5 (CLANG 4.2 (clang-425.0.28))...
+2016-04-05T15:09:51.169802000 0.405637s notice: Running on Darwin 15.4.0 x86_64
+2016-04-05T15:09:51.169848000 0.405682s notice: Loading data from directory /Users/pandd/Sites/react-tutorial/rethinkdb_data
+2016-04-05T15:09:51.213233000 0.449068s info: Automatically using cache size of 100 MB
+2016-04-05T15:09:51.213240000 0.449074s warn: Cache size is larger than available memory.
+2016-04-05T15:09:51.213244000 0.449078s warn: Cache size is very low and may impact performance.
+2016-04-05T15:09:51.214164000 0.449998s notice: Listening for intracluster connections on port 29015
+2016-04-05T15:09:51.241196000 0.477031s notice: Listening for client driver connections on port 28015
+2016-04-05T15:09:51.241568000 0.477402s notice: Listening for administrative HTTP connections on port 9999
+2016-04-05T15:09:51.241569000 0.477403s notice: Listening on addresses: 127.0.0.1, ::1
+2016-04-05T15:09:51.241570000 0.477404s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-04-05T15:09:51.241571000 0.477405s notice: Server ready, "MacBook_Pro_042" c8f26292-057b-467d-abeb-dd8a25bae963
+2016-04-05T15:09:52.670017000 1.905875s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Starting a new Raft election for term 10.
+2016-04-05T15:09:52.702646000 1.938503s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: This server is Raft leader for term 10. Latest log index is 29.
+2016-04-05T15:09:53.043939000 2.279797s notice: A newer version of the RethinkDB server is available: 2.2.6. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-04-06T16:05:25.407986000 56107.703510s notice: Server got SIGINT from pid 1370, uid 501; shutting down...
+2016-04-06T16:05:25.414746000 56107.710271s notice: Shutting down client connections...
+2016-04-06T16:05:25.420910000 56107.716434s notice: All client connections closed.
+2016-04-06T16:05:25.420917000 56107.716441s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-04-06T16:05:25.507479000 56107.803004s notice: Storage engine shut down.
+2016-04-06T18:21:19.290911000 0.449609s notice: Running rethinkdb 2.2.5 (CLANG 4.2 (clang-425.0.28))...
+2016-04-06T18:21:19.294769000 0.453464s notice: Running on Darwin 15.4.0 x86_64
+2016-04-06T18:21:19.294811000 0.453505s notice: Loading data from directory /Users/pandd/Sites/react-tutorial/rethinkdb_data
+2016-04-06T18:21:19.356512000 0.515206s info: Automatically using cache size of 100 MB
+2016-04-06T18:21:19.356520000 0.515214s warn: Cache size does not leave much memory for server and query overhead (available memory: 103 MB).
+2016-04-06T18:21:19.356525000 0.515218s warn: Cache size is very low and may impact performance.
+2016-04-06T18:21:19.357358000 0.516052s notice: Listening for intracluster connections on port 29015
+2016-04-06T18:21:19.383781000 0.542475s notice: Listening for client driver connections on port 28015
+2016-04-06T18:21:19.384228000 0.542922s notice: Listening for administrative HTTP connections on port 9999
+2016-04-06T18:21:19.384231000 0.542925s notice: Listening on addresses: 127.0.0.1, ::1
+2016-04-06T18:21:19.384232000 0.542926s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-04-06T18:21:19.384444000 0.543138s notice: Server ready, "MacBook_Pro_042" c8f26292-057b-467d-abeb-dd8a25bae963
+2016-04-06T18:21:20.599640000 1.758334s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Starting a new Raft election for term 11.
+2016-04-06T18:21:20.614653000 1.773347s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: This server is Raft leader for term 11. Latest log index is 32.
+2016-04-06T18:21:20.660056000 1.818750s notice: A newer version of the RethinkDB server is available: 2.2.6. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-04-06T18:29:06.803807000 467.968999s notice: Server got SIGINT from pid 1370, uid 501; shutting down...
+2016-04-06T18:29:06.803993000 467.969185s notice: Shutting down client connections...
+2016-04-06T18:29:06.804151000 467.969343s notice: All client connections closed.
+2016-04-06T18:29:06.804158000 467.969350s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-04-06T18:29:06.809561000 467.974754s notice: Storage engine shut down.
+2016-04-29T13:30:09.620800000 0.441251s notice: Running rethinkdb 2.2.5 (CLANG 4.2 (clang-425.0.28))...
+2016-04-29T13:30:09.624801000 0.445250s notice: Running on Darwin 15.4.0 x86_64
+2016-04-29T13:30:09.624844000 0.445292s notice: Loading data from directory /Users/pandd/Sites/react-tutorial/rethinkdb_data
+2016-04-29T13:30:09.688164000 0.508611s info: Automatically using cache size of 100 MB
+2016-04-29T13:30:09.688171000 0.508619s warn: Cache size does not leave much memory for server and query overhead (available memory: 722 MB).
+2016-04-29T13:30:09.688176000 0.508623s warn: Cache size is very low and may impact performance.
+2016-04-29T13:30:09.689035000 0.509482s notice: Listening for intracluster connections on port 29015
+2016-04-29T13:30:09.713946000 0.534394s notice: Listening for client driver connections on port 28015
+2016-04-29T13:30:09.714155000 0.534603s notice: Listening for administrative HTTP connections on port 9999
+2016-04-29T13:30:09.714157000 0.534604s notice: Listening on addresses: 127.0.0.1, ::1
+2016-04-29T13:30:09.714158000 0.534605s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-04-29T13:30:09.714159000 0.534606s notice: Server ready, "MacBook_Pro_042" c8f26292-057b-467d-abeb-dd8a25bae963
+2016-04-29T13:30:11.330917000 2.151384s notice: A newer version of the RethinkDB server is available: 2.3.1. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-04-29T13:30:11.698778000 2.519246s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Starting a new Raft election for term 12.
+2016-04-29T13:30:11.732174000 2.552642s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: This server is Raft leader for term 12. Latest log index is 35.
+2016-05-07T19:38:41.420069000 259202.253468s notice: A newer version of the RethinkDB server is available: 2.3.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-05-08T13:37:29.526310000 280290.279125s notice: Server got SIGINT from pid 29014, uid 501; shutting down...
+2016-05-08T13:37:29.546039000 280290.298852s notice: Shutting down client connections...
+2016-05-08T13:37:29.554670000 280290.307483s notice: All client connections closed.
+2016-05-08T13:37:29.554683000 280290.307495s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-05-08T13:37:29.658667000 280290.411480s notice: Storage engine shut down.
+2016-05-08T13:37:36.050368000 0.384334s notice: Running rethinkdb 2.2.5 (CLANG 4.2 (clang-425.0.28))...
+2016-05-08T13:37:36.063319000 0.397280s notice: Running on Darwin 15.4.0 x86_64
+2016-05-08T13:37:36.063366000 0.397326s notice: Loading data from directory /Users/pandd/Sites/react-tutorial/rethinkdb_data
+2016-05-08T13:37:36.111403000 0.445363s info: Automatically using cache size of 100 MB
+2016-05-08T13:37:36.111412000 0.445372s warn: Cache size does not leave much memory for server and query overhead (available memory: 163 MB).
+2016-05-08T13:37:36.111425000 0.445385s warn: Cache size is very low and may impact performance.
+2016-05-08T13:37:36.112408000 0.446368s notice: Listening for intracluster connections on port 29015
+2016-05-08T13:37:36.143471000 0.477431s notice: Listening for client driver connections on port 28015
+2016-05-08T13:37:36.143937000 0.477897s notice: Listening for administrative HTTP connections on port 8080
+2016-05-08T13:37:36.143957000 0.477918s notice: Listening on addresses: 127.0.0.1, ::1
+2016-05-08T13:37:36.143959000 0.477919s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-05-08T13:37:36.143960000 0.477921s notice: Server ready, "MacBook_Pro_042" c8f26292-057b-467d-abeb-dd8a25bae963
+2016-05-08T13:37:37.213676000 1.547637s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Starting a new Raft election for term 13.
+2016-05-08T13:37:37.235195000 1.569156s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: This server is Raft leader for term 13. Latest log index is 38.
+2016-05-08T13:37:37.491740000 1.825725s notice: A newer version of the RethinkDB server is available: 2.3.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-05-08T13:45:34.514731000 478.856881s info: Table cf0c8fbb-11e0-464b-92e4-905eee9755f0: Added replica on this server.
+2016-05-08T13:45:35.525269000 479.867419s info: Table cf0c8fbb-11e0-464b-92e4-905eee9755f0: Starting a new Raft election for term 1.
+2016-05-08T13:45:35.559764000 479.901915s info: Table cf0c8fbb-11e0-464b-92e4-905eee9755f0: This server is Raft leader for term 1. Latest log index is 0.
+2016-05-08T13:45:36.661383000 481.003557s info: Table cf0c8fbb-11e0-464b-92e4-905eee9755f0: Configuration is changing.
+2016-05-11T12:53:28.430219000 48846.460847s notice: Server got SIGINT from pid 29014, uid 501; shutting down...
+2016-05-11T12:53:28.434044000 48846.464667s notice: Shutting down client connections...
+2016-05-11T12:53:28.438350000 48846.468973s notice: All client connections closed.
+2016-05-11T12:53:28.438357000 48846.468980s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-05-11T12:53:28.551045000 48846.581669s notice: Storage engine shut down.
+2016-05-12T09:05:02.338238000 0.477103s notice: Running rethinkdb 2.2.5 (CLANG 4.2 (clang-425.0.28))...
+2016-05-12T09:05:02.342322000 0.481184s notice: Running on Darwin 15.4.0 x86_64
+2016-05-12T09:05:02.342362000 0.481223s notice: Loading data from directory /Users/pandd/Sites/visavmusei.github.io/rethinkdb_data
+2016-05-12T09:05:02.416900000 0.555761s info: Automatically using cache size of 100 MB
+2016-05-12T09:05:02.416908000 0.555769s warn: Cache size does not leave much memory for server and query overhead (available memory: 140 MB).
+2016-05-12T09:05:02.416912000 0.555773s warn: Cache size is very low and may impact performance.
+2016-05-12T09:05:02.420399000 0.559260s notice: Listening for intracluster connections on port 29015
+2016-05-12T09:05:02.470000000 0.608861s notice: Listening for client driver connections on port 28015
+2016-05-12T09:05:02.470217000 0.609078s notice: Listening for administrative HTTP connections on port 9999
+2016-05-12T09:05:02.470218000 0.609080s notice: Listening on addresses: 127.0.0.1, ::1
+2016-05-12T09:05:02.470226000 0.609087s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-05-12T09:05:02.470227000 0.609088s notice: Server ready, "MacBook_Pro_042" c8f26292-057b-467d-abeb-dd8a25bae963
+2016-05-12T09:05:03.455963000 1.594844s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: Starting a new Raft election for term 14.
+2016-05-12T09:05:03.496985000 1.635866s info: Table 81153ff9-5b03-439a-8a5c-a4a752bfc108: This server is Raft leader for term 14. Latest log index is 41.
+2016-05-12T09:05:03.707344000 1.846226s info: Table cf0c8fbb-11e0-464b-92e4-905eee9755f0: Starting a new Raft election for term 2.
+2016-05-12T09:05:03.746437000 1.885318s info: Table cf0c8fbb-11e0-464b-92e4-905eee9755f0: This server is Raft leader for term 2. Latest log index is 4.
+2016-05-12T09:05:04.210892000 2.349773s notice: A newer version of the RethinkDB server is available: 2.3.2. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.

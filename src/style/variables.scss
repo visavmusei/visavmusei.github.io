@@ -1,0 +1,22 @@
+$grid: 20px;
+$color-accent: #D6A03E;
+$color-main: #fff;
+$baseTransitionStyle: cubic-bezier(0.660, 0.000, 0.070, 1.000);
+
+$sizeXXL:       1500px;
+$sizeXL:        1100px;
+$sizeL:         1024px;
+$sizeM:         768px;
+$sizeS:         320px;
+
+@font-face {
+  font-family: 'Myriad Pro Light';
+  src: url('/fonts/MyriadPro-Light.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/MyriadPro-Light.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/MyriadPro-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/MyriadPro-Light.svg#a99616dbb054e76c282c87b27678ee84') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  200;
+}

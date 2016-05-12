@@ -1,0 +1,95 @@
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 30px;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+  font-size: 12px;
+  margin: 0 2px;
+  padding: 0 5px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+p, ul {
+  margin: 15px 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-image: none;
+}
+
+.comment {
+  margin-bottom: 20px;
+}
+
+.date {
+  color: #555;
+  font-size: .8em;
+}
+
+p {
+  margin: 0;
+}
+
+.comment-form {
+  border: 1px solid #111;
+  padding: 10px;
+}
+
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  > li {
+    width: 25%;
+
+    > img {
+      display: block;
+
+      width: 100%;
+    }
+  }
+}
